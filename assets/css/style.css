@@ -23,10 +23,10 @@ body{
 }
 
 .centered{
-    margin: auto;
+    /* margin: auto; */
     width: 50%;
     border: 3px solid green;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .row{
@@ -46,35 +46,9 @@ body{
     width: 50%;
 }
 
-/*
 
-#goal-wins-losses{
-    position: relative;
-    width: 50%;
-    min-height: 100%;
-}
 
-#goal, #wins-losses{
-    position: absolute;
-}
-
-#goal{
-    top: 1em;
-    left: 1em;
-    bottom: 1em;
-    background-color: blueviolet;
-}
-
-#wins-losses{
-    top: 1em;
-    right: 1em;
-    bottom: 1em;
-    background-color: yellowgreen;
-}
-
-*/
-
-#goal-wins-losses-container{
+#stats-row{
     position: relative;
     height: auto;
 }
@@ -83,13 +57,17 @@ body{
     background-color: blueviolet;
 }
 
-#goal-text, #wins-text, #losses-text{
+
+.stats-text{
     font-size: 20pt;
 }
 
-#wins-losses-div{
+
+#score-column, #wins-losses-div{
     background-color: yellowgreen;
 }
+
+
 
 #crystal-buttons{
     position: relative;
@@ -98,15 +76,4 @@ body{
 
 img{
     width: 100%;
-}
-
-
-
-
-#total-score{
-
-}
-
-#current-total{
-    
 }

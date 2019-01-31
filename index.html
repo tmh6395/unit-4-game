@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystals Collector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <!-- FOR SOME REASON THIS MAKES <H1/> BE THE SIZE OF <P/> -->
     <script src="assets/javascript/game.js"></script>
 </head>
 
@@ -46,19 +46,43 @@
         </div>
 
 
-        <div class="row centered" id="goal-wins-losses-container">
+        <div class="row centered" id="stats-row">
 
-            <div class="col-md-6" id="goal-div">
-                <p id="goal-text">Goal:</p>
+            <div class="col-md-4" id="score-column">
+
+                <div class="row" id="total-score-row">
+                    <p class="stats-text" id="total-score-text">Your total score:</p>
+                </div>
+
+                <div class="row" id="current-total-row">
+                    <p class="stats-text" id="current-total"></p>
+                </div>
+
             </div>
 
-            <div class="col-md-6" id="wins-losses-div">
-                <div class="row">
-                    <p id="wins-text">Wins:</p>
+
+            <div class="col-md-4" id="goal-div">
+                <div class="row" id="goal-row">
+                    <p class="stats-text" id="goal-text">Goal:</p>
                 </div>
-                <div class="row">
-                    <p id="losses-text">Losses:</p>
+
+                <div class="row" id="">
+                    <p class="stats-text" id="goal-value"></p>
                 </div>
+
+            </div>
+
+
+            <div class="col-md-4" id="wins-losses-div">
+
+                <div class="row">
+                    <p class="stats-text" id="wins-text">Wins:</p>
+                </div>
+
+                <div class="row">
+                    <p class="stats-text" id="losses-text">Losses:</p>
+                </div>
+
             </div>
 
         </div>
@@ -67,32 +91,28 @@
 
         <div class="row centered" id="crystal-buttons">
             <div class="col-md-3">
-                <img src="assets/images/Sapphire.png" alt="Sapphire Image"/>
+                <img src="assets/images/Sapphire.png" alt="Sapphire Image" />
             </div>
 
             <div class="col-md-3">
-                <img src="assets/images/Emerald.png" alt="Emerald Image"/>
+                <img src="assets/images/Emerald.png" alt="Emerald Image" />
             </div>
 
             <div class="col-md-3">
-                <img src="assets/images/Ruby.png" alt="Ruby Image"/>
+                <img src="assets/images/Ruby.png" alt="Ruby Image" />
             </div>
-            
+
             <div class="col-md-3">
-                <img src="assets/images/Diamond.png" alt="Diamond Image"/>
+                <img src="assets/images/Diamond.png" alt="Diamond Image" />
             </div>
-            
+
         </div>
 
 
-        <div class="row centered" id="total-score">
-            total-score
-        </div>
+        
 
 
-        <div class="row centered" id="current-total">
-            current-total
-        </div>
+
 
     </div>
 </body>
