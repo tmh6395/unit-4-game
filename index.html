@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystals Collector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- FOR SOME REASON THIS MAKES <H1/> BE THE SIZE OF <P/> -->
@@ -45,21 +46,42 @@
         </div>
 
 
-        <div class="row centered" id="goal-wins-losses">
+        <div class="row centered" id="goal-wins-losses-container">
 
-            <div id="goal">
-                goal
+            <div class="col-md-6" id="goal-div">
+                <p id="goal-text">Goal:</p>
             </div>
 
-            <div id="wins-losses">
-                wins-losses
+            <div class="col-md-6" id="wins-losses-div">
+                <div class="row">
+                    <p id="wins-text">Wins:</p>
+                </div>
+                <div class="row">
+                    <p id="losses-text">Losses:</p>
+                </div>
             </div>
 
         </div>
 
+        <!-- Add IDs to the images for jquery click handlers -->
 
         <div class="row centered" id="crystal-buttons">
-            crystal-buttons
+            <div class="col-md-3">
+                <img src="assets/images/Sapphire.png" alt="Sapphire Image"/>
+            </div>
+
+            <div class="col-md-3">
+                <img src="assets/images/Emerald.png" alt="Emerald Image"/>
+            </div>
+
+            <div class="col-md-3">
+                <img src="assets/images/Ruby.png" alt="Ruby Image"/>
+            </div>
+            
+            <div class="col-md-3">
+                <img src="assets/images/Diamond.png" alt="Diamond Image"/>
+            </div>
+            
         </div>
 
 

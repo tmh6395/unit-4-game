@@ -46,26 +46,62 @@ body{
     width: 50%;
 }
 
+/*
+
 #goal-wins-losses{
+    position: relative;
     width: 50%;
+    min-height: 100%;
+}
+
+#goal, #wins-losses{
+    position: absolute;
 }
 
 #goal{
-    width: 45%;
-    height: 45%;
-    display: inline-block;
+    top: 1em;
+    left: 1em;
+    bottom: 1em;
     background-color: blueviolet;
 }
 
 #wins-losses{
-    width: 45%;
-    float: right;
+    top: 1em;
+    right: 1em;
+    bottom: 1em;
+    background-color: yellowgreen;
+}
+
+*/
+
+#goal-wins-losses-container{
+    position: relative;
+    height: auto;
+}
+
+#goal-div{
+    background-color: blueviolet;
+}
+
+#goal-text, #wins-text, #losses-text{
+    font-size: 20pt;
+}
+
+#wins-losses-div{
     background-color: yellowgreen;
 }
 
 #crystal-buttons{
+    position: relative;
 
 }
+
+img{
+    width: 100%;
+}
+
+
+
 
 #total-score{
 
