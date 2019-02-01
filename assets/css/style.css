@@ -1,51 +1,67 @@
 html, body{
     height: 100%;
     background-color: brown;
-    border: 10px rgb(43, 66, 100) groove;
+    border: 10px rgb(43, 66, 100) ridge;
+    overflow: hidden;
 }
 
 html{
-    height: 93%;
+    height: 95%;
 }
 
 body{
     position: relative;
     height: 100%;
-    margin: 1em;
+    margin: 2em 2em;
+    /* background-image: url("assets/images/Background.png"); */
     background-color: cornflowerblue;
 }
 
 #main-container{
     position: absolute;
     overflow: auto;
-    width: 100%;
+    width: auto;
     height: 100%;
+    top: 0;
+    bottom: 0;
 }
 
-.centered{
+.centered-div{
     /* margin: auto; */
     width: 50%;
     border: 3px solid green;
     /* padding: 10px; */
 }
 
+.instructions-text{
+    padding: .25em;
+    font-family: sans-serif;
+}
+
+p{
+    margin: auto;
+}
+
 .row{
     padding: 1em;
-    margin: 1em auto;
+    margin: 1.5em auto;
     background-color: gainsboro;
 }
 
-#game-title{
-    height: 10%;
+#game-title-div{
+    height: auto;
     width: 30%;
-    text-align: center;
+}
+
+#game-title-text{
+    /* text-align: center; */
+    margin: auto;
 }
 
 #game-instructions{
-    height: 30%;
+    height: auto;
     width: 50%;
 }
-
 
 
 #stats-row{
@@ -53,19 +69,17 @@ body{
     height: auto;
 }
 
-#goal-div{
+/* #goal-div{
     background-color: blueviolet;
-}
+} */
 
-
-.stats-text{
+.larger-font{
     font-size: 20pt;
 }
 
-
-#score-column, #wins-losses-div{
+/* #score-column, #wins-losses-div{
     background-color: yellowgreen;
-}
+} */
 
 
 
