@@ -30,7 +30,6 @@ $(function () {
     function setGemValues() {
         // Gems' RNG between 1 & 12 inclusively
 
-        sapphireValue = 0;  // "Placeholder 0"
         emeraldValue = Math.floor(Math.random() * 12 + 1);
         rubyValue = Math.floor(Math.random() * 12 + 1);
         diamondValue = Math.floor(Math.random() * 12) + 1;
