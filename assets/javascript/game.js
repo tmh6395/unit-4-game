@@ -27,10 +27,14 @@ $(function () {
     let rubyValue = 0;
     let diamondValue = 0;
 
-    // total number RNG between 19 & 120 inclusively
-    goalNumber = Math.floor(Math.random() * 102) + 19;
-    $("#goal-value").html(goalNumber);
+    function setGoal(){
+        // total number RNG between 19 & 120 inclusively
+        goalNumber = Math.floor(Math.random() * 102) + 19;
+        $("#goal-value").html(goalNumber);
+    }
 
+    // Call the function to set a value for the goal
+    setGoal();
 
     function setGemValues() {
         // Gems' RNG between 1 & 12 inclusively
@@ -112,6 +116,7 @@ function checkGame(){
 function reset() {
     sum = 0;
     $("#current-sum").html(sum);
+    setGoal();
     setGemValues();
 }
 
