@@ -1,19 +1,18 @@
 html, body{
     height: 100%;
-    border: 10px rgb(49, 42, 29) ridge;
+    border: 10px rgb(105, 90, 57) ridge;
     overflow: hidden;
 }
 
 html{
     height: 95%;
-    background-color: rgb(189, 160, 98);
+    background-color: rgb(49, 42, 29);
 }
 
 body{
     position: relative;
     height: 100%;
     margin: 2em 2em;
-    background-color: rgb(65, 56, 39);
 }
 
 #main-container{
@@ -23,11 +22,14 @@ body{
     height: 100%;
     top: 0;
     bottom: 0;
+    background-color: rgb(105, 90, 57);
+    background-image: url(https://vignette.wikia.nocookie.net/2007scape/images/7/74/Default_login_screen.png/revision/latest?cb=20180225003823);
+    background-size: cover;
 }
 
 .centered-div{
     width: 50%;
-    border: 3px solid rgb(49, 42, 29);
+    border: 10px ridge rgb(49, 42, 29);
 }
 
 .instructions-text{
@@ -41,7 +43,7 @@ p{
 
 .row{
     padding: 1em;
-    margin: 1.5em auto;
+    margin: 1em auto;
     background-color: rgb(189, 160, 98);
 }
 
@@ -66,10 +68,10 @@ p{
 }
 
 .larger-font{
-    font-size: 20pt;
+    font-size: 22pt;
 }
 
-#crystal-buttons{
+#gemstone-buttons{
     position: relative;
 
 }
